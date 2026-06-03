@@ -1,6 +1,6 @@
 {
-  "name": "ident_gen",
-  "version": "1.0.0",
+  "name": "ident-gen",
+  "version": "0.1.0",
   "description": "Deterministic, symmetric identicon generator for UUIDs, with grid and distribution-heatmap modes.",
   "author": "Drebin573",
   "license": "MIT",
