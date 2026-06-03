@@ -1,0 +1,33 @@
+{
+  "name": "ident_gen",
+  "version": "1.0.0",
+  "description": "Deterministic, symmetric identicon generator for UUIDs, with grid and distribution-heatmap modes.",
+  "author": "Drebin573",
+  "license": "MIT",
+  "main": "ident_gen.js",
+  "bin": {
+    "ident_gen": "ident_gen.js"
+  },
+  "files": [
+    "ident_gen.js",
+    "palette.json",
+    "palettes/",
+    "assets/"
+  ],
+  "scripts": {
+    "start": "node ident_gen.js"
+  },
+  "keywords": [
+    "identicon",
+    "avatar",
+    "uuid",
+    "canvas"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "canvas": "^3.1.0"
+  },
+  "type": "module"
+}
